@@ -10,7 +10,7 @@ p{
     color: white;
 }
 .div1{
-    border: color-mix(in srgb-linear, #0A6621 25%, #C82121 60%);
+    border: 10px dotted #000;
 }
 .zdjecie1{
     height: 500px;
