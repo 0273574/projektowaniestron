@@ -9,10 +9,14 @@ h1{
 p{
     color: white;
 }
+.div1{
+    border: color-mix(in srgb-linear, #0A6621 25%, #C82121 60%);
+}
 .zdjecie1{
     height: 500px;
     width: 500px;
     border: 2px solid #fff;
+    padding-right: 0;
 }
 .lista{
     display: flex;
