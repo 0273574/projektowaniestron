@@ -21,7 +21,10 @@ p {
     border: 20px ridge #f8d0ed;
     padding: 50px;
     margin: 30px;
-
+    background: #3f2f4a;
+    background: linear-gradient(90deg, #3f2f4a 6%, #786390 80%);
+    background: -webkit-linear-gradient(90deg, #3f2f4a 6%, #786390 80%);
+    background: -moz-linear-gradient(90deg, #3f2f4a 6%, #786390 80%);
 }
 
 .zdjecie1 {
