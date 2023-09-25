@@ -1,36 +1,48 @@
-*{
-    background-color:green;
+* {
+    background: #0041ff;
+    background: linear-gradient(342deg, #0041ff 0%, #00fff6 80%);
+    background: -webkit-linear-gradient(342deg, #0041ff 0%, #00fff6 80%);
+    background: -moz-linear-gradient(342deg, #0041ff 0%, #00fff6 80%);
     padding: 0;
     margin: 0;
 }
-h1{
+
+h1 {
     color: red;
 }
-p{
+
+p {
     color: white;
 }
-.div1{
-    border: 10px dotted #000;
+
+.div1 {
+    border: 35px ridge #50caff;
+
 }
-.zdjecie1{
+
+.zdjecie1 {
     height: 500px;
     width: 500px;
     border: 2px solid #fff;
     padding-right: 0;
 }
-.lista{
+
+.lista {
     display: flex;
-    
+
 }
-img{
+
+img {
     height: 500px;
     width: 300px;
     padding-right: 20px;
 }
-.ostatnia{
+
+.ostatnia {
     padding-right: 0;
 }
-p{
+
+p {
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
