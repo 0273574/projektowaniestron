@@ -1,18 +1,23 @@
 * {
-    background: #0041ff;
-    background: linear-gradient(342deg, #0041ff 0%, #00fff6 80%);
-    background: -webkit-linear-gradient(342deg, #0041ff 0%, #00fff6 80%);
-    background: -moz-linear-gradient(342deg, #0041ff 0%, #00fff6 80%);
-    padding: 0;
+    background: #6d6798;
+    background: linear-gradient(90deg, #6d6798 20%, #bd9ee6 60%);
+    background: -webkit-linear-gradient(90deg, #6d6798 20%, #bd9ee6 60%);
+    background: -moz-linear-gradient(90deg, #6d6798 20%, #bd9ee6 60%);
     margin: 0;
 }
 
 h1 {
-    color: red;
+    color: #121623;
 }
 
 p {
     color: white;
+}
+
+.div1 {
+    box-shadow: 10px 5px 42px -1px rgba(46, 58, 88, 0.69);
+    -webkit-box-shadow: 10px 5px 42px -1px rgba(46, 58, 88, 0.69);
+    -moz-box-shadow: 10px 5px 42px -1px rgba(46, 58, 88, 0.69);
 }
 
 .div2 {
