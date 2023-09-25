@@ -4,6 +4,7 @@ body {
     background: -webkit-linear-gradient(90deg, #6d6798 20%, #bd9ee6 60%);
     background: -moz-linear-gradient(90deg, #6d6798 20%, #bd9ee6 60%);
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 h1 {
@@ -21,7 +22,8 @@ p {
 }
 
 .div2 {
-    border: 35px ridge #50caff;
+    border: 20px ridge #f8d0ed;
+    padding: 40px;
 
 }
 
