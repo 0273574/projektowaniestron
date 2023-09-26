@@ -74,11 +74,7 @@ nav a{
     width: 400px;
     margin: 50px;
 }
-.malarz1 img{
-    width: 400px;
-    margin: 50px;
-}
-.malarz1{
+.malarz{
     background-color:aqua ;
     border-radius: 15px;
     text-align:center;
@@ -90,16 +86,8 @@ nav a{
     margin: 20px;
 }
 .malarz1{
-
+    
     background-color: blue;
-    border-radius: 15px;
-    text-align:center;
-}
-.malarz1:nth-child(2){
-    margin: 20px;
-}
-.malarz1:nth-child(1){
-    margin: 20px;
 }
 nav{
     display: flex;
