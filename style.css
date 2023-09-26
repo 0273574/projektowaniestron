@@ -85,3 +85,11 @@ nav a{
 .malarz:nth-child(1){
     margin: 20px;
 }
+nav{
+    display: flex;
+    text-align: center;
+
+}
+nav a{
+    margin:30px;
+}
