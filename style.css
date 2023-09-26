@@ -70,3 +70,10 @@ nav a{
     display: flex;
     margin: 40px;
 }
+.adamczyk img{
+    width: 200px;
+}
+.adamczyk{
+    background-color:aqua ;
+    border-radius: 15px;
+}
