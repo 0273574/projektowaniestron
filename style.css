@@ -20,7 +20,7 @@ p {
 
 
 .div2 {
-    border: 20px ridge #000a1c;
+    border: 20px groove #000a1c;
     padding: 50px;
     margin: 30px;
     background: #132f3f;
