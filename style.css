@@ -85,10 +85,13 @@ nav a{
 .malarz:nth-child(1){
     margin: 20px;
 }
+.malarz1{
+    background-color: blue;
+}
 nav{
     display: flex;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
 
 }
 nav a{
