@@ -194,10 +194,7 @@ footer {
 }
 .foreign-painters .right button {
     display: none; /* Ukrywamy button początkowo */
-    position: absolute; /* Ustawiamy pozycję jako absolutną */
     
-    left: 50%; /* Wycentrowanie poziome */
-    transform: translateX(-50%); /* Wycentrowanie poziome */
 }
 .foreign-painters .right h1 {
     margin: 0;
