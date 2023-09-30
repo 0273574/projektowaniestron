@@ -134,7 +134,9 @@ section {
     text-decoration: none;
     border-radius: 5px;
 }
-
+.right button a{
+    color:white;
+}
 .right button:hover {
     background-color: #1c1c1c;
 }
