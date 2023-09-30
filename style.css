@@ -199,12 +199,17 @@ footer {
     font-weight: normal;
 }
 
-.foreign-painters .right,
-.foreign-painters .left {
-    transition: transform 0.3s ease;
+.foreign-painters .left:hover,
+.foreign-painters .right:hover {
+    transform: translateX(50%);
 }
 
-.foreign-painters .right:hover,
-.foreign-painters .left:hover {
-    transform: translateY(10px);
+.foreign-painters:hover .left {
+    transition: transform 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.foreign-painters:hover .right {
+    transition: transform 0.3s ease;
+    transform: translateX(50%);
 }
