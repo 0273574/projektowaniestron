@@ -30,6 +30,8 @@ header {
 }
 
 .nav_links li a {
+    font-size: 25px;
+    font-weight: normal;
     transition: all 0.3s ease 0s;
     text-decoration: none;
     cursor: pointer;
