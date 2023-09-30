@@ -53,6 +53,7 @@ a {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     text-decoration: none;
+    color: white;
 }
 
 .nav_links li a:hover,
