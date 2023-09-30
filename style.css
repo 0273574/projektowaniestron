@@ -35,7 +35,10 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
-
+a {
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
 .nav_links li a:hover , a:hover {
     color: #04F2DF;
 }
