@@ -15,14 +15,18 @@ header {
     display: flex;
     align-items: center;
     padding: 30px 10%;
-    justify-content: space-around;
+    justify-content: flex-end;
 
 
 }
+nav{
+    display: inline-flex;
+}
 nav img{
-    height:50px;
+    height: 100px;
     width: auto;
     border-radius: 50%;
+
 }
 
 .nav_links {
