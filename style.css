@@ -5,10 +5,13 @@ body {
 }
 nav{
     display: flex;
-    padding: 20px;
+    
 }
 li{
     background-color: bisque;
+}
+ul{
+    padding: 20px;
 }
 section {
     background-color: #000;
