@@ -186,8 +186,19 @@ footer {
 .foreign-painters .right {
     flex: 1;
     text-align: center;
-}
+    position: relative;
 
+}
+.foreign-painters .right :hover button{
+    display: block;
+}
+.foreign-painters .right button {
+    display: none; /* Ukrywamy button początkowo */
+    position: absolute; /* Ustawiamy pozycję jako absolutną */
+    bottom: 10px; /* Odstęp od dołu */
+    left: 50%; /* Wycentrowanie poziome */
+    transform: translateX(-50%); /* Wycentrowanie poziome */
+}
 .foreign-painters .right h1 {
     margin: 0;
     color: white;
