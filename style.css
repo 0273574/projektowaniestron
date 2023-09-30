@@ -2,16 +2,21 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     color: white;
+    box-sizing: border-box;
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
     
 }
 ul{
     background-color: bisque;
 }
-li{
-    padding: 20px;
+li, a{
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 section {
