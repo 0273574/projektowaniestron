@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    font-family: 'AR One Sans', sans-serif;
     font-family: 'Inter', sans-serif;
     color: white;
     box-sizing: border-box;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tło.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/tło.jpg);
     background-position: bottom center;
     background-size: cover;
     box-shadow: inset 0 -100px 20px -50px black;
@@ -19,11 +20,13 @@ header {
 
 
 }
-nav{
+
+nav {
     display: inline-flex;
     align-items: center;
 }
-nav img{
+
+nav img {
     height: 80px;
     width: auto;
     border-radius: 50%;
@@ -48,8 +51,9 @@ nav img{
     cursor: pointer;
     color: white;
 }
-@media (max-width: 768px){
-    .nav_links li a{
+
+@media (max-width: 768px) {
+    .nav_links li a {
         font-size: 10px
     }
 }
@@ -68,7 +72,7 @@ a:hover {
 
 
 section {
-   
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,14 +87,14 @@ section {
     text-align: center;
 }
 
-.right > h1 {
+.right>h1 {
     margin: 0;
     color: white;
     font-size: 50px;
     text-align: center;
 }
 
-.right > p {
+.right>p {
     margin: 20px 5%;
     font-size: 20px;
     font-weight: normal;
@@ -118,6 +122,7 @@ section {
 .left:hover {
     transform: translateY(10px);
 }
+
 .right button {
     background-color: #000;
     color: white;
@@ -133,10 +138,11 @@ section {
 .right button:hover {
     background-color: #1c1c1c;
 }
+
 footer {
     background-color: #000;
     text-align: center;
     padding: 20px;
     font-size: 15px;
-    
+
 }
