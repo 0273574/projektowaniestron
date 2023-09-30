@@ -86,9 +86,11 @@ section {
     height: auto;
     border-radius: 50%;
 }
+.right , .left{
+    transition: transform 0.3s ease;
+}
 .right:hover, .left:hover {
     transform: translateY(10px);
-    transition: transform 0.3s ease-in-out 0.3s;
   }
 
 footer {
