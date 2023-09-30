@@ -189,11 +189,9 @@ footer {
     position: relative;
 
 }
-.foreign-painters .right :hover button{
-    display: inline;
-}
+
 .foreign-painters .right button {
-    display: none;
+    
     background-color: #000;
     color: white;
     border: none;
