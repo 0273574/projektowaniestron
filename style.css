@@ -195,7 +195,7 @@ footer {
 .foreign-painters .right button {
     display: none; /* Ukrywamy button początkowo */
     position: absolute; /* Ustawiamy pozycję jako absolutną */
-    bottom: 10px; /* Odstęp od dołu */
+    
     left: 50%; /* Wycentrowanie poziome */
     transform: translateX(-50%); /* Wycentrowanie poziome */
 }
