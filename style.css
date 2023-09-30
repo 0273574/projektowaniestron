@@ -1,8 +1,5 @@
 body {
-    background: #559e9e;
-    background: linear-gradient(90deg, #559e9e 20%, #4d8b93 60%);
-    background: -webkit-linear-gradient(90deg, #559e9e 20%, #4d8b93 60%);
-    background: -moz-linear-gradient(90deg, #559e9e 20%, #4d8b93 60%);
+    padding: 0;
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
