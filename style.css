@@ -36,19 +36,24 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
+
 a {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     text-decoration: none;
 }
-.nav_links li a:hover , a:hover {
+
+.nav_links li a:hover,
+a:hover {
     color: #04F2DF;
 }
-@media (max-width: 768px){
-    header{
+
+@media (max-width: 768px) {
+    header {
         display: none;
     }
 }
+
 section {
     background-color: #000;
     display: flex;
@@ -88,13 +93,18 @@ section {
     height: auto;
     border-radius: 50%;
 }
-.right , .left{
+
+.right,
+.left {
     transition: transform 0.3s ease;
 }
-.right:hover, .left:hover {
+
+.right:hover,
+.left:hover {
     transform: translateY(10px);
-  }
-  .famous-painters {
+}
+
+.famous-painters {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,17 +148,19 @@ section {
 .famous-painters .left:hover {
     transform: translateY(10px);
 }
+
 footer {
     position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #000;
-  text-align: center;
-  padding: 20px;
-  font-size: 15px;
-    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+
 }
+
 .foreign-painters {
     display: flex;
     justify-content: space-between;
