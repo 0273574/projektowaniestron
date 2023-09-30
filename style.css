@@ -194,7 +194,19 @@ footer {
 }
 .foreign-painters .right button {
     display: none; /* Ukrywamy button początkowo */
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
     
+}
+.foreign-painters .right button:hover{
+    background-color: #1c1c1c;
 }
 .foreign-painters .right h1 {
     margin: 0;
