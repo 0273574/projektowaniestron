@@ -1,6 +1,7 @@
 *{
     background-color: #000;
     color: white;
+    cursor: default;
 }
 body {
     margin: 0;
