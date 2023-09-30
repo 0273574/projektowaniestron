@@ -149,3 +149,47 @@ footer {
   font-size: 15px;
     
 }
+.foreign-painters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+
+.foreign-painters .left {
+    flex: 1;
+    text-align: center;
+}
+
+.foreign-painters .left img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.foreign-painters .right {
+    flex: 1;
+}
+
+.foreign-painters .right h1 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.foreign-painters .right p {
+    margin: 20px 5%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.foreign-painters .right,
+.foreign-painters .left {
+    transition: transform 0.3s ease;
+}
+
+.foreign-painters .right:hover,
+.foreign-painters .left:hover {
+    transform: translateY(10px);
+}
