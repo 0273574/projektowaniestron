@@ -42,7 +42,11 @@ a {
 .nav_links li a:hover , a:hover {
     color: #04F2DF;
 }
-
+@media (max-width: 768px){
+    header{
+        display: none;
+    }
+}
 section {
     background-color: #000;
     display: flex;
