@@ -38,6 +38,7 @@ header {
 a {
     transition: all 0.3s ease 0s;
     cursor: pointer;
+    text-decoration: none;
 }
 .nav_links li a:hover , a:hover {
     color: #04F2DF;
@@ -58,6 +59,7 @@ section {
 }
 .left{
     flex: 1;
+    text-align: center;
 }
 .left img{
     width:60%;
