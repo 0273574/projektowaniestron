@@ -23,9 +23,10 @@ nav{
     display: inline-flex;
 }
 nav img{
-    height: 100px;
+    height: 80px;
     width: auto;
     border-radius: 50%;
+    border: 3px solid #000;
 
 }
 
