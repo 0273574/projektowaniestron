@@ -94,7 +94,50 @@ section {
 .right:hover, .left:hover {
     transform: translateY(10px);
   }
+  .famous-painters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
 
+.famous-painters .right {
+    flex: 1;
+}
+
+.famous-painters .right h1 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.famous-painters .right p {
+    margin: 20px 5%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.famous-painters .left {
+    flex: 1;
+    text-align: center;
+}
+
+.famous-painters .left img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.famous-painters .right,
+.famous-painters .left {
+    transition: transform 0.3s ease;
+}
+
+.famous-painters .right:hover,
+.famous-painters .left:hover {
+    transform: translateY(10px);
+}
 footer {
     position: fixed;
   bottom: 0;
