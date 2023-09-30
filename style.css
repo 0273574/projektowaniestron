@@ -193,7 +193,7 @@ footer {
     display: block;
 }
 .foreign-painters .right button {
-    display: none; /* Ukrywamy button początkowo */
+    
     background-color: #000;
     color: white;
     border: none;
