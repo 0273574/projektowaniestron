@@ -48,6 +48,11 @@ nav img{
     cursor: pointer;
     color: white;
 }
+@media (max-width: 768px){
+    .nav_links li a{
+        font-size: 10px
+    }
+}
 
 a {
     transition: all 0.3s ease 0s;
@@ -78,14 +83,14 @@ section {
     text-align: center;
 }
 
-.right>h1 {
+.right > h1 {
     margin: 0;
     color: white;
     font-size: 50px;
     text-align: center;
 }
 
-.right>p {
+.right > p {
     margin: 20px 5%;
     font-size: 20px;
     font-weight: normal;
