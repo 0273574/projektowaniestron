@@ -114,6 +114,7 @@ section {
 
 .famous-painters .right {
     flex: 1;
+    text-align: center;
 }
 
 .famous-painters .right h1 {
@@ -184,6 +185,7 @@ footer {
 
 .foreign-painters .right {
     flex: 1;
+    text-align: center;
 }
 
 .foreign-painters .right h1 {
