@@ -19,6 +19,11 @@ header {
 
 
 }
+nav img{
+    height:50px;
+    width: auto;
+    border-radius: 50%;
+}
 
 .nav_links {
     list-style: none;
