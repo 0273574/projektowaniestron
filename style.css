@@ -22,13 +22,13 @@ header{
     
 }
 .nav_links li{
-    cursor: pointer;
     display: inline-block;
     padding: 0px 20px;
 }
 .nav_links li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    cursor: pointer;
 }
 .nav_links li a:hover{
     color: #04F2DF;
