@@ -7,12 +7,13 @@ nav{
     display: flex;
     
 }
-li{
+ul{
     background-color: bisque;
 }
-ul{
+li{
     padding: 20px;
 }
+
 section {
     background-color: #000;
     display: flex;
