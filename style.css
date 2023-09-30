@@ -3,7 +3,13 @@ body {
     font-family: 'Inter', sans-serif;
     color: white;
 }
-
+nav{
+    display: flex;
+    padding: 20px;
+}
+li{
+    background-color: bisque;
+}
 section {
     background-color: #000;
     display: flex;
