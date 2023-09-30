@@ -22,7 +22,8 @@ p {
 .div2 {
     border: 20px groove #000a1c;
     padding: 50px;
-    margin: 30px;
+    
+    width: 90vh;
     background: #132f3f;
     background: linear-gradient(90deg, #132f3f 6%, #305b65 80%);
     background: -webkit-linear-gradient(90deg, #132f3f 6%, #305b65 80%);
