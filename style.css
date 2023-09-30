@@ -46,6 +46,7 @@ nav img{
     transition: all 0.3s ease 0s;
     text-decoration: none;
     cursor: pointer;
+    color: #000;
 }
 
 a {
