@@ -54,7 +54,7 @@ nav img {
 
 @media (max-width: 768px) {
     .nav_links li a {
-        font-size: 10px
+        font-size: 20px
     }
     .wstep, .polscy, .zagraniczny{
         display: flex;
