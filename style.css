@@ -66,6 +66,9 @@ nav img {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
+    section{
+        flex-direction: column;
+    }
 }
 
 a {
