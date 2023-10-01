@@ -56,6 +56,10 @@ nav img {
     .nav_links li a {
         font-size: 10px
     }
+    .wstep, .polscy, .zagraniczny{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 a {
