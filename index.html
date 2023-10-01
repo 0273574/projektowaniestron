@@ -45,7 +45,7 @@
             <img src="images/malarz1.jpg" alt="">
         </div>
     </section>
-    <section class="polscy reveal" id="polscy_malarze">
+    <section class="polscy" id="polscy_malarze">
         <div class="left">
             <img src="images/matejko.jpg" alt="">
         </div>
@@ -57,7 +57,7 @@
         </div>
 
     </section>
-    <section class="zagraniczni reveal" id="zagraniczni_malarze">
+    <section class="zagraniczni" id="zagraniczni_malarze">
         <div class="right">
             <h1>Znani Malarze Zagraniczni</h1>
             <p>Malarze z różnych zakątków świata wnoszą do sztuki niezwykłą różnorodność i różne perspektywy. Ich prace
@@ -71,25 +71,7 @@
 
     </div>
     <footer>Made with ♥ by <a href="https://ayo.so/iletymaszlat">K. Rusin</a></footer>
-    <script>
-        function reveal() {
-            var reveals = document.querySelectorAll(".reveal");
-
-            for (var i = 0; i < reveals.length; i++) {
-                var windowHeight = window.innerHeight;
-                var elementTop = reveals[i].getBoundingClientRect().top;
-                var elementVisible = 150;
-
-                if (elementTop < windowHeight - elementVisible) {
-                    reveals[i].classList.add("active");
-                } else {
-                    reveals[i].classList.remove("active");
-                }
-            }
-        }
-
-        window.addEventListener("scroll", reveal);
-    </script>
+    
 </body>
 
 </html>
