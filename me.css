@@ -58,6 +58,12 @@ h1{
         width: 880px;
     }
 }
+@media screen and (max-width: 550px){
+    .aktywnosc{
+        height: 143px;
+        width: 780px;
+    }
+}
 .aktywnosc{
     height: 343px;
     width: 980px;
