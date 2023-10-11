@@ -47,29 +47,9 @@ h1{
     display: flex;
     
 }
-.gif{
-    height: 270;
-    width: 590;
-}
-@media screen and (max-width: 700px){
-    .gif{
-        height: 170;
-        width: 490;
-    }
-    .aktywnosc{
-        height: 243;
-        width: 880;
-    }
-}
-@media screen and (max-width: 550px){
-    .aktywnosc{
-        height: 143;
-        width: 780;
-    }
-}
-.aktywnosc{
-    height: 343;
-    width: 980;
+p {
+    margin-top: 0;
+    margin-bottom: 10px
 }
 
 .git{
@@ -84,8 +64,7 @@ h1{
     margin-top: 20px;
 }
 img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    border-style: none
 }
 .anchorjs-link {
     
