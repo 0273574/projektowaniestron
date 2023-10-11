@@ -12,3 +12,7 @@ html{
 h1{
     color: #0366D6;
 }
+.icons{
+    display: flex;
+    
+}
