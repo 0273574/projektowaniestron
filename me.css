@@ -48,28 +48,28 @@ h1{
     
 }
 .gif{
-    height: 270px;
-    width: 590px;
+    height: 270;
+    width: 590;
 }
 @media screen and (max-width: 700px){
     .gif{
-        height: 170px;
-        width: 490px;
+        height: 170;
+        width: 490;
     }
     .aktywnosc{
-        height: 243px;
-        width: 880px;
+        height: 243;
+        width: 880;
     }
 }
 @media screen and (max-width: 550px){
     .aktywnosc{
-        height: 143px;
-        width: 780px;
+        height: 143;
+        width: 780;
     }
 }
 .aktywnosc{
-    height: 343px;
-    width: 980px;
+    height: 343;
+    width: 980;
 }
 
 .git{
