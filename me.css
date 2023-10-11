@@ -13,7 +13,10 @@ body {
     padding: 10px;
 
 }
-
+a{
+    text-decoration: none;
+    color: #0366D6;
+}
 #content {
     max-width: 800px;
     width: 100%;
