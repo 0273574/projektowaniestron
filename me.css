@@ -38,7 +38,6 @@ h1{
 .about{
     padding: 16px;
     overflow: auto;
-    font-size: 85%;
     line-height: 1.45;
     background-color: #f6f8fa;
     border-radius: 3px;
@@ -47,6 +46,10 @@ h1{
 .icons{
     display: flex;
     
+}
+.gif{
+    height: 270px;
+    width: 590px;
 }
 @media screen and (max-width: 700px){
     .gif{
@@ -68,10 +71,7 @@ h1{
     height: 343px;
     width: 980px;
 }
-.gif{
-    height: 270px;
-    width: 590px;
-}
+
 .git{
     font-weight: 500;
 }
