@@ -48,6 +48,24 @@ h1{
     display: flex;
     
 }
+@media screen and (max-width: 700px){
+    .gif{
+        height: 490px;
+        width: 170px;
+    }
+    .aktywnosc{
+        height: 243px;
+        width: 880px;
+    }
+}
+.aktywnosc{
+    height: 343px;
+    width: 980px;
+}
+.gif{
+    height: 590px;
+    width: 270px;
+}
 .git{
     font-weight: 500;
 }
