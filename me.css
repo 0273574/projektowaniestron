@@ -65,5 +65,8 @@ img {
     opacity: 0;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
+    
+}
+.anchorjs-link:hover{
     text-decoration: underline;
 }
