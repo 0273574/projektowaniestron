@@ -65,4 +65,5 @@ img {
     opacity: 0;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
+    text-decoration: underline;
 }
