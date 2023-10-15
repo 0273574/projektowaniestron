@@ -181,3 +181,8 @@ footer {
   .image-container:hover .overlay {
     background: rgba(255, 255, 255, 0.5); /* Po najechaniu pojawi się poświata */
   }
+  .image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
